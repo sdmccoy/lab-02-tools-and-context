@@ -1,0 +1,28 @@
+{
+  "name": "lab2-scott",
+  "version": "1.0.0",
+  "description": "**Author** Scott McCoy",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdmccoy/lab-02-tools-and-context.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdmccoy/lab-02-tools-and-context/issues"
+  },
+  "homepage": "https://github.com/sdmccoy/lab-02-tools-and-context#readme",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.4.2"
+  }
+}
