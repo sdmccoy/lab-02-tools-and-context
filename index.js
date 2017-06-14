@@ -2,8 +2,6 @@
 
 const fp = require('./lib/fp.js');
 
-const main =  module.exports = () => {
-  let result = fp(process.argv[2]);
-  console.log(result);
-  return result;
-};
+let result = fp.map(process.argv, str => str.toUpperCase());
+console.log(result);
+return result;
